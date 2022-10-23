@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# CRUD function - Using Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Period
 
-## Available Scripts
+23 Oct, 2022
 
-In the project directory, you can run:
+# Purpose
 
-### `npm start`
+To get used to Redux, I tried to implement redux for the contact app has CRUD functions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Environment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Used : React, Redux, HTML, CSS, toastify, bootstrap
+IDE : Visual Studio Code
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Sample screenshots
+<img width="1217" alt="Screen Shot 2022-10-23 at 9 19 56 AM" src="https://user-images.githubusercontent.com/90344204/197400477-c3a80a6b-50b6-4fe4-bab7-e9ef4ceefb1b.png">
+<img width="1217" alt="Screen Shot 2022-10-23 at 9 20 06 AM" src="https://user-images.githubusercontent.com/90344204/197400489-4a7f9c55-92a5-4c89-9c8c-6acef40a6d8c.png">
+<img width="1217" alt="Screen Shot 2022-10-23 at 9 20 31 AM" src="https://user-images.githubusercontent.com/90344204/197400533-03e97721-3054-4895-b863-3bb711aa7001.png">
+<img width="1217" alt="Screen Shot 2022-10-23 at 9 20 42 AM" src="https://user-images.githubusercontent.com/90344204/197400551-2f5d63e1-b28f-4a12-8428-ed8af2ccb30d.png">
+<img width="1217" alt="Screen Shot 2022-10-23 at 9 20 52 AM" src="https://user-images.githubusercontent.com/90344204/197400562-ed98f4a0-4bc3-4eac-bcee-5c5722882057.png">
