@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 
 const Add = () => {
@@ -7,12 +8,18 @@ const Add = () => {
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const contacts = useSelector((state) => state);
+  const dispatch = useDispatch();
+
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const checkEmail = contacts.find(
       (contact) => contact.email === email && email
+    );
+    const checkNumber = contacts.find(
+      (contact) => contact.number === parseInt(number)
     );
 
     if (!email || !number || !name) {
@@ -22,6 +29,19 @@ const Add = () => {
     if (checkEmail) {
       return toast.error("This email already Exists!");
     }
+    if (checkNumber) {
+      return toast.error("This number already Exists!");
+    }
+
+    const data = {
+      id: contacts[contacts.length - 1].id + 1,
+      name,
+      email,
+      number,
+    };
+    dispatch({ type: "ADD_CONTACT", payload: data });
+    toast.success("Student added successfully!");
+    navigate("/");
   };
 
   return (
