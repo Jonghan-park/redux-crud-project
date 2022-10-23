@@ -1,4 +1,4 @@
-# CRUD function - Using Redux
+# Contact manager that has CRUD function - Using Redux
 
 # Period
 
@@ -6,7 +6,7 @@
 
 # Purpose
 
-To get used to Redux, I tried to implement redux for the contact app has CRUD functions.
+To get used to Redux, I tried to implement redux for the contact app that has CRUD functions.
 
 # Environment
 
